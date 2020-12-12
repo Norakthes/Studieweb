@@ -2,6 +2,33 @@ body {
    background-image: none;
 }
 
+ul.navbar{
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 1200px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
 
 #wrapper {
    background-color: whitesmoke;
@@ -79,43 +106,6 @@ div.desc {
     margin: 5px;
   width: 340px;
 }
-
-ul.navbar{
-  list-style-type: none;
-  margin: auto;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-     position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-    width: 1200px;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover:not(.active) {
-  background-color: #111;
-}
-
-.active:hover {
-    background-color: #C73E3A;
-}
-
-.active {
-  background-color: #E04541;
-}
-
 img.logbog_billede {
     border-radius: 2%;
     border-style: solid;
