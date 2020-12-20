@@ -9,13 +9,34 @@
 <body>
 <div id="header"><h1 id="identifier">Rasmus studieweb</h1></div>
 
-<ul class="navbar">
-    <li><a href="index.html">Forside</a></li>
-    <li><a href="website.html">Website</a></li>
-    <li><a class="active" href="usability.html">Usability</a></li>
-    <li><a href="digitale billeder.html">Digitale billeder</a></li>
-    <li><a href="logbog.html">Logbog</a></li>
-</ul>
+<div id="menu">
+
+    <a href="index.html" class="dropdownbutton active" style="text-decoration: none; float: left; margin-right: 25px">Forside</a>
+
+    <div class="dropdown">
+        <button class="dropdownbutton">Grundforløb</button>
+        <div class="dropdown-content">
+            <a href="website.html">Website</a>
+            <a href="usability.html">Usability</a>
+            <a href="digitale%20billeder.html">Digitale billeder</a>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <a class="dropdownbutton">Studieforløb</a>
+        <div class="dropdown-content">
+            <a href="">Digitale medier</a>
+        </div>
+    </div>
+
+    <div class="dropdown" style="float: right">
+        <a href="logbog_index.html" class="dropdownbutton" style="text-decoration: none">Logbog</a>
+        <div class="dropdown-content" style="margin-left: -95px; box-shadow: 0 16px 8px 0 rgba(0,0,0,0.2);">
+            <a href="Logbøger/GF_logbog.html">Grundforløb logbog</a>
+            <a href="Logbøger/SR_logbog.html">Studieretning logbog</a>
+        </div>
+    </div>
+</div>
 
 <div id="wrapper">
     <div id="content">
